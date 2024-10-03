@@ -110,6 +110,7 @@ http://localhost:8000/redoc
 
 Adicionalmente hay una copia de la documentacion en formato pdf
 
+[https://github.com/cesarmauriciodr/BTG-BACKEND-TEST/blob/main/docs/api-docs.pdf]
 
 
 ## Estructura del Proyecto
