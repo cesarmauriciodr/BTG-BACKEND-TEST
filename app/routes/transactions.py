@@ -3,6 +3,7 @@ from database import transactions_collection
 
 router = APIRouter()
 
+
 @router.get("/")
 # Historial de transacciones
 def obtener_transacciones(user_id: str):
