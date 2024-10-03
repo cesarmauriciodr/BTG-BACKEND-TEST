@@ -15,6 +15,7 @@ Este proyecto es una API RESTful desarrollada con **FastAPI** para la gestión d
 5. [Documentación Swagger](#documentación-swagger)
 6. [Estructura del Proyecto](#estructura-del-proyecto)
 7. [Pruebas](#pruebas)
+8. [Parte 2](#parte-2-consultas-sql-20)
 
 
 ## Descripción
@@ -158,8 +159,7 @@ El proyecto incluye pruebas unitarias
    Esto ejecutará todas las pruebas en la carpeta `tests/`.
 
 
-### Parte 2: Consultas SQL (20%)
-
+## Parte 2: Consultas SQL (20%)
 Solucion:
 
 ```sql
