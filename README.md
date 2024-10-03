@@ -1,5 +1,6 @@
 # BTG-BACKEND-TEST Backend para Gestión de Fondos
 ## PRUEBA TÉCNICA PARA INGENIERO DE DESARROLLO 
+### Parte 1: Fondos  (80%)
 
 Este proyecto es una API RESTful desarrollada con **FastAPI** para la gestión de fondos de inversión. Permite a los usuarios realizar suscripciones, cancelar suscripciones, ver el historial de transacciones y recibir notificaciones por correo electrónico o SMS.
 
@@ -155,3 +156,16 @@ El proyecto incluye pruebas unitarias
    ```
 
    Esto ejecutará todas las pruebas en la carpeta `tests/`.
+
+
+### Parte 2: Consultas SQL (20%)
+
+Solucion:
+
+```sql
+SELECT c.nombre, c.apellidos
+FROM Cliente c
+JOIN Inscripción i ON c.id = i.idCliente
+JOIN Disponibilidad d ON i.idProducto = d.idProducto
+JOIN Visitan v ON c.id = v.idCliente AND d.idSucursal = v.idSucursal;
+```
